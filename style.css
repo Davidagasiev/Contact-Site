@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 360px;
+	width: 100%;
+	background-image: url(https://radicalwebdesign.co.uk/wp-content/themes/radicalwebdesign/assets/images/static/subpage-bg.png);	
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header svg{
+	width: 200px;
+	padding-left: 20px;
+}
+.logo{
+	display: inline;
+}
+
+/* Menu button*/
+.menuButton{
+	display: inline;
+	float: right;
+	padding-right: 20px;
+	padding-top: 40px;
+	z-index: 100;
+}
+.menu-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+.menu-btn__burger {
+  width: 50px;
+  height: 4px;
+  background: #EC008C;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255,101,47,.2);
+  transition: all .5s ease-in-out;
+}
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background: #EC008C;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255,101,47,.2);
+  transition: all .5s ease-in-out;
+}
+.menu-btn__burger::before {
+  transform: translateY(-16px);
+}
+.menu-btn__burger::after {
+  transform: translateY(16px);
+}
+/* ANIMATION */
+.menu-btn.open .menu-btn__burger {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+.menu-btn.open .menu-btn__burger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.open .menu-btn__burger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
