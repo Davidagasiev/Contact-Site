@@ -48,5 +48,6 @@
 		</div>
 	</header>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript"> block = document.getElementsByTagName("h1"); block[0].style.display = "none"; </script>
 </body>
 </html>

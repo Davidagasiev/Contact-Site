@@ -5,6 +5,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	font-family: Proxima Nova Regular,sans-serif;
 }
 header{
 	height: 360px;
@@ -14,8 +15,10 @@ header{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
-header svg{
+a{
+	text-decoration: none;
+}
+.logo svg{
 	width: 200px;
 	padding-left: 20px;
 }
@@ -77,4 +80,56 @@ header svg{
 }
 .menu-btn.open .menu-btn__burger::after {
   transform: rotate(-45deg) translate(35px, 35px);
+}
+
+/*Burger menu list*/
+.burgerMenu{
+	display: none;
+	height: 0;
+	width: 100%;
+	background-color: #0C1B4E;
+}
+.burgerMenu ul{
+	padding-top: 100px;
+}
+.burgerMenu li{
+	list-style-type: none;
+	text-align: center;
+	margin: 20px;
+}
+.burgerMenu a{
+	text-transform: capitalize;
+	color: white;
+	text-decoration: none;
+	font-size: 2rem;
+}
+/*Navbar content*/
+
+.nav-content{
+	margin:15px auto;
+	width: 90%;
+	color: #8e9dce;
+}
+.nav-content h1{
+	color: white;
+	font-size: 50px;	
+	font-family: Ridley Grotesk,sans-serif;
+	font-weight: 550;
+    line-height: 1.1;
+}
+.nav-content a{
+	margin: 10px;
+	color: #8e9dce;
+	font-size: 18px;	
+}
+.nav-content img{
+	width: 20px;
+	height: 20px;
+}
+.link{
+	margin: 15px;
+	margin-left: 0;
+}
+.nav-content p{
+	font-size: 20px;	line-height: 1.458;
 }
