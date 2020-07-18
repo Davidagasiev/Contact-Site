@@ -100,15 +100,18 @@ a{
 .burgerMenu a{
 	text-transform: capitalize;
 	color: white;
-	text-decoration: none;
 	font-size: 2rem;
 }
+
+
 /*Navbar content*/
 
 .nav-content{
 	margin:15px auto;
 	width: 90%;
 	color: #8e9dce;
+	display: grid;
+  	grid-template-columns: 100%;
 }
 .nav-content h1{
 	color: white;
@@ -131,9 +134,30 @@ a{
 	margin-left: 0;
 }
 .nav-content p{
-	font-size: 20px;	line-height: 1.458;
+	font-size: 20px;
+	line-height: 1.458;
 }
 
+.navbar{
+	display: none;
+	float: right;
+}
+.navbar ul{
+	margin-top: 50px;
+}
+.navbar li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 25px;
+}
+.navbar li:last-child{
+	margin-right: 55px;
+} 
+.navbar a{
+	text-transform: capitalize;
+	color: white;
+	font-size: 1.2rem;
+}
 
 /*Grid contact*/
 
@@ -143,6 +167,7 @@ a{
   padding: 10px;
   background-color: #f8f8f8;
   box-shadow: inset 0 -0.1rem 0.5rem 0 #ded;
+  margin-top: 25px;
 }
 
 @media screen and (min-width: 580px) {
@@ -156,8 +181,21 @@ a{
 @media screen and (min-width: 990px) {
 	.grid-container {
   		grid-template-columns: 25% 25% 25% 25%;
-}
-
+  	}
+  	.nav-content{
+  		grid-template-columns: 35% 65%;
+	}
+	.nav-content p{
+		padding-top: 20px;
+		font-size: 25px;
+		line-height: 1.458;
+		text-align: right;
+	}
+	.menuButton{
+		display: none;
+	}
+	.navbar{
+		display: inline-block;	}
 }
 .grid-item {
   padding: 20px;
