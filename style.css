@@ -133,3 +133,72 @@ a{
 .nav-content p{
 	font-size: 20px;	line-height: 1.458;
 }
+
+
+/*Grid contact*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 10px;
+  background-color: #f8f8f8;
+  box-shadow: inset 0 -0.1rem 0.5rem 0 #ded;
+}
+
+@media screen and (min-width: 580px) {
+	.grid-container {
+  		grid-template-columns: 50% 50%;
+  	}
+  	.grid-image{
+		margin-bottom: 30px;
+	}
+}
+@media screen and (min-width: 990px) {
+	.grid-container {
+  		grid-template-columns: 25% 25% 25% 25%;
+}
+
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item svg{
+	height: 80px;
+	padding: 10px;
+}
+
+.grid-image{
+	border: 1px solid #C5C5C5;
+	border-radius: 50%;
+	display: inline-flex;
+	border: .1rem solid #c5c5c5;
+	margin-bottom: 20px;
+}
+.grid-item strong{
+	font-size: 18px;
+	color: #504A4A;
+	display: block;
+}
+.grid-item p{
+	font-size: 16px;
+	color: #504A4A;
+	display: block;
+	margin-top: 20px;
+}
+#facebook{
+	color: #4579C6;
+	margin-top: 20px;
+}
+#instagram{
+	color: #EC00A7;
+	margin-top: 5px;
+}
+#facebook, #instagram{
+	font-size: 16px;
+	display: block;
+	font-family: Proxima Nova Semibold,sans-serif;
+    font-weight: bold;
+}
