@@ -32,3 +32,13 @@ menuBtn[0].addEventListener('click', () => {
 // To allow scrolling
 	document.body.style.overflow = '';
 });
+
+
+// More questions
+const moreInfo = document.getElementsByClassName("more-info")[0],
+	morebtn = document.getElementById("morebtn");
+
+morebtn.addEventListener("click", () => {
+	moreInfo.style.display = "block";
+	morebtn.style.display = 'none';
+});
