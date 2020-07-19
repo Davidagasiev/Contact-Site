@@ -37,8 +37,132 @@ menuBtn[0].addEventListener('click', () => {
 // More questions
 const moreInfo = document.getElementsByClassName("more-info")[0],
 	morebtn = document.getElementById("morebtn");
-
+let moreInfoOpened = false;
 morebtn.addEventListener("click", () => {
 	moreInfo.style.display = "block";
 	morebtn.style.display = 'none';
+	moreInfoOpened = true;
 });
+
+
+
+
+// Form validation
+const // Inputs
+	name         = document.getElementById("name"),
+	email        = document.getElementById("email"),
+	phone        = document.getElementById("phone"),
+	url          = document.getElementById("url"),
+	help   	     = document.getElementById("help"),
+	company      = document.getElementById("company"),
+	timeframe    = document.getElementById("timeframe"),
+	budget       = document.getElementById("budget"),
+//	Error paragraphs
+	// Require input errors
+	nameReq      = document.getElementById("nameReq"),
+	emailReq     = document.getElementById("emailReq"),
+	phoneReq     = document.getElementById("phoneReq"),
+	helpReq      = document.getElementById("helpReq"),
+	// Invalid input errors
+	emailInvalid = document.getElementById("emailInvalid"),
+	phoneInvalid = document.getElementById("phoneInvalid"),
+	urlInvalid   = document.getElementById("urlInvalid"),
+//	Main Error
+	vError       = document.getElementById("validationError"),
+	// Submit button
+	button   = document.getElementById("submitbtn"),
+//	Checkboxes
+	google = document.getElementById("google"),
+	bing   = document.getElementById("bing"),
+	facebook = document.getElementById("facebook2"),
+	linkedin = document.getElementById("linkedin"),
+	instagram = document.getElementById("instagram2"),
+	magazine = document.getElementById("magazine"),
+	radio = document.getElementById("radio"),
+	reco = document.getElementById("reco"),
+	other = document.getElementById("other"); 
+
+
+button.addEventListener("click", () => {
+	let errorOccured = false;
+//	For the first time remove all errors if they are
+	vError.style.display = "none";
+	nameReq.style.display = "none";
+	emailReq.style.display = "none";
+	phoneReq.style.display = "none";
+	helpReq.style.display = "none";
+	emailInvalid.style.display = "none";
+	phoneInvalid.style.display = "none";
+	urlInvalid.style.display = "none";
+
+// If name input is empty
+	if (!name.value) {
+	 	nameReq.style.display = "block";
+	 	errorOccured = true;
+	 }
+// If email input is empty or invalid
+	const emailRegExp = /^\W+|\w+@\w{2,10}.\w{2,5}$/;
+	if (!email.value) {
+		emailReq.style.display = "block";
+		errorOccured = true;
+	}else {
+		if (!emailRegExp.test(email.value)) {
+			emailInvalid.style.display = "block";
+			errorOccured = true;
+		}
+	}
+//If phone input is empty or not invalid
+	const phoneRegExp = /\d{5,15}$/;
+	if (phone.value === "") {
+		phoneReq.style.display = "block";
+		errorOccured = true;
+	}else {
+		if (!phoneRegExp.test(phone.value)) {
+			phoneInvalid.style.display = "block";
+			errorOccured = true;
+		}
+	}
+//If URL is not invalid
+	const urlRegExp = /(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g;
+	if (url.value) {
+		if (!urlRegExp.test(url.value)) {
+			urlInvalid.style.display = "block";
+			errorOccured = true;
+		}
+	}
+//If "How can we help?" input is empty
+	if (!help.value) {
+		helpReq.style.display = "block";
+		errorOccured = true;
+	}
+//Check if something invalid or empty
+	if (errorOccured) {
+		validationError.style.display = 'block';
+	}else {
+		let consoleInformation = {
+			YourName: name.value,
+			EmailAddress: email.value,
+			PhoneNumber: phone.value,
+			CompanyOrganization: company.value,
+			WebsiteURL: url.value,
+			HowCanWeHelp: help.value
+		};
+		if (moreInfoOpened) {
+			let checkboxes = {
+				Google: google.checked,
+				Bing: bing.checked,
+				Facebook: facebook.checked,
+				LinkedIn: linkedin.checked,
+				Instagram: instagram.checked,
+				Magazine: magazine.checked,
+				Radio: radio.checked,
+				Recommendation: reco.checked,
+				Other: other.checked
+			}
+			consoleInformation.Timeframe = timeframe.value;
+			consoleInformation.Budget = budget.value;
+			consoleInformation.CheckboxInformation = checkboxes;
+		}
+		console.log(consoleInformation);
+	}
+})

@@ -347,9 +347,6 @@ a{
 		display: grid;
 		grid-template-columns: 100%;
 	}
-	#unknown{
-		height: 100px;
-	}
 }
 
 /*Input style*/
@@ -389,10 +386,11 @@ a{
   color: #EC008C;
 }
 .wrapper .input-data label{
+  font-size: 17px;
   position: absolute;
   bottom: 10px;
   left: 0;
-  color: grey;
+  color: #454545;
   pointer-events: none;
   transition: all 0.3s ease;
 }
@@ -459,4 +457,47 @@ a{
 #submitbtn:hover{
 	background-color: #B5006D;
 	box-shadow: 0 6px 18px rgba(210,6,142,.35);
+}
+
+
+/*Validation Error div*/
+
+.validationError{
+	border-width: 2px;
+	border-style: solid;
+	border-color: #F93F3F;
+	border-radius: 3rem;
+	color: #F93F3F;
+	background-color: #FFEFEF;
+}
+
+.validationError img{
+	position: relative;
+	top: 3px;
+	right: 10px;
+	width: 20px;
+}
+.validationError p{
+	margin-left: 25px;
+	margin-right: 25px;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 17px;
+	line-height:2;
+}
+
+.withoutAfter::after{
+	display: none;
+}
+
+/*Error styles*/
+
+.errors{
+	color: #E33A3A;
+	margin-top: 10px;
+	font-size: 14px;
+	display: none;
+}
+.errors2{
+	display: none;
 }

@@ -106,31 +106,49 @@
 			<h1 id="started">Let’s get started</h1>
 
 			
-				<form>
+				<form novalidate onsubmit="return false">
 					
 
 				<div class="grid-form">
 					<div class="wrapper">
       				<div class="input-data">
-        			<input type="text" required>
+        			<input type="text" id="name" required>
         			<div class="underline"></div>
 					<label>Your name</label>
+
+
+					<p class="errors" id="nameReq">The field is required.</p>
+
+
       			</div>
 			</div>
 			
 			<div class="wrapper">
       			<div class="input-data">
-        			<input type="text" required>
+        			<input type="text" id="email" required>
         			<div class="underline"></div>
 					<label>E-mail address</label>
+
+					<p class="errors" id="emailReq">The field is required.</p>
+
+					<p class="errors" id="emailInvalid">The e-mail address entered is invalid.</p>
+
+
       			</div>
 			</div>
 
 			<div class="wrapper">
       			<div class="input-data">
-        			<input type="text" required>
+        			<input type="text" id="phone" required>
         			<div class="underline"></div>
 					<label>Phone number</label>
+
+
+					<p class="errors" id="phoneReq">The field is required.</p>
+
+					<p class="errors" id="phoneInvalid">The telephone number is invalid.</p>
+
+
       			</div>
 			</div>
 				</div>
@@ -138,17 +156,21 @@
 			<div class="grid-form2">
 							<div class="wrapper">
       			<div class="input-data">
-        			<input type="text" required>
+        			<input type="text" id="company" required>
         			<div class="underline"></div>
-					<label>Company/Organization</label>
+					<label class="withoutAfter">Company/Organization</label>
       			</div>
 			</div>
 
 			<div class="wrapper">
       			<div class="input-data">
-        			<input type="text" required>
-        			<div class="underline"></div>
-					<label>Current website URL</label>
+        			<input type="text" id="url" required>
+        			<div class="underline" ></div>
+					<label class="withoutAfter">Current website URL</label>
+
+					<p class="errors" id="urlInvalid">The URL is invalid.</p>
+
+
       			</div>
 			</div>
 			</div>
@@ -156,21 +178,27 @@
 
 			<div class="wrapper">
       			<div class="input-data">
-        			<input type="text" required>
+        			<input type="text" id="help" required>
         			<div class="underline"></div>
 					<label>How can we help?</label>
+
+
+					<p class="errors" id="helpReq">The field is required.</p>
+
+
       			</div>
 			</div>
 					
 				
 				<div class="more-info" style="display: none;">
+
 					<div class="grid-form3">
 					<div class="wrapper">
 
 						<h3 class="more-info-name">Timeframe <span class="more-info-name-span"> (approximate)</span></h3>
 
       				<div class="input-data">
-        			<input type="text" class="timeframe" required>
+        			<input type="text" class="timeframe" id="timeframe" required>
         			<div class="underline"></div>
       			</div>
 			</div>
@@ -180,7 +208,7 @@
 				<h3 class="more-info-name">Budget <span class="more-info-name-span"> (approximate)</span></h3>
 
       			<div class="input-data">
-        			<input type="text" class="budget" required>
+        			<input type="text" class="budget" id="budget" required>
         			<div class="underline"></div>
       			</div>
 			</div>
@@ -191,44 +219,43 @@
 
 					<div class="checkbox-grid">
 						<div>
-							<input type="checkbox" name="Google">
-							<label for="Google">Google</label>
+							<input type="checkbox" id="google" name="Google" >
+							<label for="google">Google</label>
 						</div>
 						<div>
-							<input type="checkbox" name="Bing">
-							<label for="Bing">Bing</label>
+							<input type="checkbox" id="bing" name="Bing">
+							<label for="bing">Bing</label>
 						</div>
 						<div>
-							<input type="checkbox" name="Facebook">
-							<label for="Facebook">Facebook</label>
+							<input type="checkbox" id="facebook2" name="Facebook">
+							<label for="facebook2">Facebook</label>
 						</div>
 						<div>
-							<input type="checkbox" name="LinkedIn">
-							<label for="LinkedIn">LinkedIn</label>
+							<input type="checkbox" id="linkedin" name="LinkedIn">
+							<label for="linkedin">LinkedIn</label>
 						</div>
 						<div>
-							<input type="checkbox" name="Instagram">
-							<label for="Instagram">Instagram</label>
+							<input type="checkbox" id="instagram2" name="Instagram">
+							<label for="instagram2">Instagram</label>
 						</div>
 						<div>
-							<input type="checkbox" name="Magazine">
-							<label for="Magazine">Magazine</label>
+							<input type="checkbox" id="magazine" name="Magazine">
+							<label for="magazine">Magazine</label>
 						</div>
 						<div>
-							<input type="checkbox" name="Radio">
-							<label for="Radio">Radio</label>
+							<input type="checkbox" id="radio" name="Radio">
+							<label for="radio">Radio</label>
 						</div>
 						<div>
-							<input type="checkbox" name="Recommendation">
-							<label for="Recommendation">Recommendation</label>
+							<input type="checkbox" id="reco" name="Recommendation">
+							<label for="reco">Recommendation</label>
 						</div>
 						<div>
-							<input type="checkbox" name="Other">
-							<label for="Other">Other</label>
+							<input type="checkbox" id="other" name="Other">
+							<label for="other">Other</label>
 						</div>
 					</div>
 				</div>
-
 				</div>
 				<div class="submitting">
 					<div id="moreQ">
@@ -241,8 +268,14 @@
 				</div>
 				<div id="unknown"></div>
 				<div class="button">
-					<button id="submitbtn"><strong>Submit →</strong> </button>
+					<button id="submitbtn" type="submit"><strong>Submit →</strong> </button>
 				</div>
+
+				<div class="validationError errors2" id="validationError">
+
+					<p><img src="https://radicalwebdesign.co.uk/wp-content/themes/radicalwebdesign/assets/images/vectors/exit-icon.svg" alt="Error"> One or more fields have an error. Please check and try again.</p>
+				</div>
+
 				</form>
 
 		</div>
