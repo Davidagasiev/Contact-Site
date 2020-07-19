@@ -285,6 +285,7 @@ a{
 	display: grid;
 	grid-template-columns: 45% 45%;
 	grid-gap: 10%;
+	margin-bottom: 80px;
 }
 @media screen and (max-width: 580px){
 	.grid-form{
@@ -370,8 +371,17 @@ a{
   width: 100%;
   border: none;
   font-size: 17px;
-  border-bottom: 2px solid silver;
+  border-bottom: 1px solid silver;
 }
+
+.timeframe, .budget {
+    background: url(https://radicalwebdesign.co.uk/wp-content/themes/radicalwebdesign/assets/images/static/calendar-icon.png) no-repeat 97% 50%;
+   }
+.budget {
+    background: url(https://radicalwebdesign.co.uk/wp-content/themes/radicalwebdesign/assets/images/vectors/pound.svg) no-repeat 97% 50%; 
+   	background-size: 30px;
+}
+
 .input-data input:focus ~ label,
 .input-data input:valid ~ label{
   transform: translateY(-20px);
@@ -394,7 +404,7 @@ a{
   position: absolute;
   height: 2px;
   width: 100%;
-  bottom: 0;
+  bottom: -1px;
 }
 .input-data .underline:before{
   position: absolute;
