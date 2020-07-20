@@ -678,6 +678,23 @@ html{
     font-size: 14px;
 }
 
+/*Section Animations*/
+#secondSection{
+	opacity: 0;
+}
+
+.secondSection{
+	animation-name: secondSectionFadeIn;
+  	animation-duration: 2.5s;
+}
+@keyframes secondSectionFadeIn {
+  0%   {
+  	opacity: 0;
+  }
+  100% {
+	opacity: 1;
+  }
+}
 /*Medias For Footer*/
 
 @media screen and (max-width: 630px){

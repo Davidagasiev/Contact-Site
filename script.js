@@ -245,3 +245,23 @@ footerBtn.addEventListener("click", () => {
 		})
 	}
 });
+
+
+//Second Section Animation
+
+const secondSection = document.getElementById("secondSection");
+let scrolled        = false;
+
+	if (document.documentElement.clientHeight < 900) {
+		secondSection.classList.add("secondSection");
+				secondSection.style.opacity = '1';
+				scrolled = true;
+	}
+
+	window.addEventListener("scroll", () => {
+		if (!scrolled) {
+			secondSection.classList.add("secondSection");
+			secondSection.style.opacity = '1';
+			scrolled = true;
+		}
+	})
