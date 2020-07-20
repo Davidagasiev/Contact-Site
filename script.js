@@ -1,5 +1,6 @@
 //Menu Button
-const menuBtn = document.querySelectorAll('.menu-btn'),
+const 
+	menuBtn = document.querySelectorAll('.menu-btn'),
 	menuList = document.getElementsByClassName("burgerMenu")[0],
 	burgerUl = document.getElementById("burgerUl");
 
@@ -39,12 +40,15 @@ const moreInfo = document.getElementsByClassName("more-info")[0],
 	morebtn = document.getElementById("morebtn");
 let moreInfoOpened = false;
 morebtn.addEventListener("click", () => {
+	moreInfoOpened = true;
+	if (window.innerWidth <= 580 && moreInfoOpened) {
+		submitbtnDiv.style.margin = "200px auto 5px auto";
+		submitbtnDiv.style.textAlign = 'center';
+	}
 	moreInfo.style.display = "block";
 	morebtn.style.display = 'none';
-	moreInfoOpened = true;
+
 });
-
-
 
 
 // Form validation
@@ -165,4 +169,32 @@ button.addEventListener("click", () => {
 		}
 		console.log(consoleInformation);
 	}
+})
+
+// Controll Submit button margin-top
+	const submitbtnDiv = document.getElementsByClassName("button")[0];
+window.addEventListener('resize', () => {
+	if (window.innerWidth <= 580 && moreInfoOpened) {
+		submitbtnDiv.style.margin = "200px auto 5px auto";
+		submitbtnDiv.style.textAlign = 'center';
+	}else {
+		submitbtnDiv.style.margin = "0 auto";
+		submitbtnDiv.style.textAlign = 'center';
+	}
+});
+
+if (window.innerWidth <= 580 && moreInfoOpened) {
+		submitbtnDiv.style.margin = "200px auto 5px auto";
+		submitbtnDiv.style.textAlign = 'center';
+	}else {
+		submitbtnDiv.style.margin = "0 auto";
+		submitbtnDiv.style.textAlign = 'center';
+}
+
+
+// To Top Button
+const toTopButton = document.getElementById("back-to-top");
+	
+toTopButton.addEventListener("click", () => {
+	window.scrollTo(0,0);
 })
