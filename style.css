@@ -520,12 +520,14 @@ a{
 }
 .meta{
 	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 45% 45%;
+	grid-gap: 10%;
 }
 .footer-contact1 a{
 	color: #EC008C;
 	font-size: 16px;
 	font-weight: 700;
-	margin-right: 30px;
 }
 .footer-contact1 svg{
 	width: 15px;
@@ -586,12 +588,11 @@ a{
 .middle-section p{
 	font-weight: lighter;
 	line-height: 1.5;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 .middle-section p span{
 	font-weight: bold;
 }
-
 
 /*Media*/
 .content-right2{
@@ -671,5 +672,50 @@ html{
 	background-color: #3D445C;
 }
 
+#touchNameError, #footerEmailReq, #footerEmailInvalid{
+	color: #E33A3A;
+    margin-top: 5px;
+    font-size: 14px;
+}
 
 /*Medias For Footer*/
+
+@media screen and (max-width: 630px){
+	.footer-contact-grid{
+		display: grid;
+		grid-template-columns: 100%;
+	}
+	.float-contact{
+		float: left;
+	}
+	.footer-contact2 h4{
+		text-align: left;
+	}
+	.meta{
+		grid-template-columns: 100%;
+	}
+	.content-right2{
+		grid-template-columns: 100%;
+		grid-row-gap: 45px;
+	}
+	
+	.toTopGrid{
+		grid-template-columns: 100%;
+		grid-row-gap: 30px;
+	}
+	#back-to-top{
+		float: left;
+	}
+}
+
+@media screen and (max-width: 780px){
+	.middle-section{
+		grid-template-columns: 100%;
+	}
+	#submitbtn{
+		width: 100%;
+	}
+	.content-left h1, .content-left p{
+		text-align: center;
+	}
+}

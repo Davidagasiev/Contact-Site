@@ -74,19 +74,20 @@ const // Inputs
 //	Main Error
 	vError       = document.getElementById("validationError"),
 	// Submit button
-	button   = document.getElementById("submitbtn"),
+	button       = document.getElementById("submitbtn"),
 //	Checkboxes
-	google = document.getElementById("google"),
-	bing   = document.getElementById("bing"),
-	facebook = document.getElementById("facebook2"),
-	linkedin = document.getElementById("linkedin"),
-	instagram = document.getElementById("instagram2"),
-	magazine = document.getElementById("magazine"),
-	radio = document.getElementById("radio"),
-	reco = document.getElementById("reco"),
-	other = document.getElementById("other"); 
+	google       = document.getElementById("google"),
+	bing         = document.getElementById("bing"),
+	facebook     = document.getElementById("facebook2"),
+	linkedin     = document.getElementById("linkedin"),
+	instagram    = document.getElementById("instagram2"),
+	magazine     = document.getElementById("magazine"),
+	radio        = document.getElementById("radio"),
+	reco         = document.getElementById("reco"),
+	other        = document.getElementById("other"); 
 
-
+const 
+	emailRegExp = /^\W+|\w+@\w{2,10}.\w{2,5}$/; // Email global RegExp
 button.addEventListener("click", () => {
 	let errorOccured = false;
 //	For the first time remove all errors if they are
@@ -105,7 +106,7 @@ button.addEventListener("click", () => {
 	 	errorOccured = true;
 	 }
 // If email input is empty or invalid
-	const emailRegExp = /^\W+|\w+@\w{2,10}.\w{2,5}$/;
+
 	if (!email.value) {
 		emailReq.style.display = "block";
 		errorOccured = true;
@@ -198,3 +199,49 @@ const toTopButton = document.getElementById("back-to-top");
 toTopButton.addEventListener("click", () => {
 	window.scrollTo(0,0);
 })
+
+
+// Footer Form Validation
+
+const 
+//	Submit Button
+	footerBtn        = document.getElementsByClassName("footerSubbtn")[0],
+//	Errors
+	//Required Error
+	footerNameReq    = document.getElementById("touchNameError"),
+	footerEmailReq   = document.getElementById("footerEmailReq"),
+	//Validation Error
+	footerEmailError = document.getElementById("footerEmailInvalid"),
+//	Inputs
+	footerName       = document.getElementById("touchName"),
+	footerEmail      = document.getElementById("touchEmail");
+
+footerBtn.addEventListener("click", () => {
+	let errorOccured = false;
+//	For the first time remove all errors if they are
+	footerNameReq.style.display = "none";
+	footerEmailReq.style.display = "none";
+	footerEmailError.style.display = "none";
+// If name input is empty
+	if (!footerName.value) {
+	 	footerNameReq.style.display = "block";
+	 	errorOccured = true;
+	 }
+// If email input is empty or invalid
+	if (!footerEmail.value) {
+		footerEmailReq.style.display = "block";
+		errorOccured = true;
+	}else {
+		if (!emailRegExp.test(footerEmail.value)) {
+			footerEmailError.style.display = "block";
+			errorOccured = true;
+		}
+	}
+//Check if something invalid or empty
+	if (!errorOccured) {
+		console.log({
+			FooterName: footerName.value,
+			footerEmail: footerEmail.value
+		})
+	}
+});
