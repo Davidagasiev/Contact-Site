@@ -4,11 +4,10 @@ const
 	menuList = document.getElementsByClassName("burgerMenu")[0],
 	burgerUl = document.getElementById("burgerUl");
 
-let menuOpen = false,
-	clientHeight = document.documentElement.clientHeight;
+let menuOpen = false;
 
 menuBtn[1].addEventListener('click', () => {
-
+	menuList.style.opacity = "1";
     menuBtn[1].classList.add('open');
     menuBtn[0].classList.add('open');
     menuOpen = true;
@@ -20,16 +19,16 @@ menuBtn[1].addEventListener('click', () => {
 	document.body.style.overflow = 'hidden';
 });
 
-
-
 menuBtn[0].addEventListener('click', () => {
 
-    menuBtn[1].classList.remove('open');
+	menuBtn[1].classList.remove('open');
     menuBtn[0].classList.remove('open');
     menuOpen = false;
 // Remove burger list
+
 	menuList.style.display = 'none';
 	menuList.style.height = 0;
+    
 // To allow scrolling
 	document.body.style.overflow = '';
 });
