@@ -168,8 +168,8 @@ a{
 /*Li hover effect*/
 
 .navbar li:hover{
-	/*transform: rotate(360deg);*/
-	transform: skewX(20deg);
+	transform: rotate(360deg);
+	/*transform: skewX(20deg);*/
 }
 
 #burgerUl li:hover{
@@ -507,7 +507,7 @@ a{
 	border-width: 0;
 	border-radius: 25px;
 	box-shadow: 0 6px 18px rgba(236,6,142,.35);
-}
+	transition: background-color 300ms ease-in-out;}
  
 #submitbtn:hover{
 	background-color: #B5006D;
@@ -832,8 +832,13 @@ html{
     border-width: 0;
     border-radius: 25px;
     box-shadow: 0 6px 18px rgba(236,6,142,.35);
+    transition: background-color 300ms ease-in-out;
 }
-
+ 
+#photoLabel:hover{
+	background-color: #B5006D;
+	box-shadow: 0 6px 18px rgba(210,6,142,.35);
+}
 
 @media screen and (max-width: 780px){
 	#photoLabel{

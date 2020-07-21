@@ -252,14 +252,14 @@ footerBtn.addEventListener("click", () => {
 const secondSection = document.getElementById("secondSection");
 let scrolled        = false;
 
-	if (document.documentElement.clientHeight < 900) {
+	if (window.pageYOffset > 300) {
 		secondSection.classList.add("secondSection");
 				secondSection.style.opacity = '1';
 				scrolled = true;
 	}
 
 	window.addEventListener("scroll", () => {
-		if (!scrolled) {
+		if (!scrolled && window.pageYOffset > 200) {
 			secondSection.classList.add("secondSection");
 			secondSection.style.opacity = '1';
 			scrolled = true;
