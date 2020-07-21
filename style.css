@@ -235,6 +235,51 @@ a{
 	padding: 10px;
 }
 
+.oddSvg{
+	position: relative;
+  animation: mymove 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+  0% {
+  	top: -6px; 
+  	/*left: -6px;*/
+  }
+  50% {
+  	top: 6px;
+  	/*left: 6px;*/
+  }
+  100% {
+  	top: -6px;
+  	/*left: -6px;*/
+  }
+}
+
+
+.evenSvg{
+	position: relative;
+	animation: mymove2 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes mymove2 {
+  0% {
+  	top: 6px; 
+  	/*left: -6px;*/
+  }
+  50% {
+  	top: -6px;
+  	/*left: 6px;*/
+  }
+  100% {
+  	top: 6px;
+  	/*left: -6px;*/
+  }
+}
+
+
+
 .grid-image{
 	border: 1px solid #C5C5C5;
 	border-radius: 50%;
