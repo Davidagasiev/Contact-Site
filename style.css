@@ -680,9 +680,10 @@ html{
 	border-radius: 25px;
 	height: 50px;
 	width: 100px;
+	transition: background-color 300ms ease-in-out;
 }
 #back-to-top:hover{
-	background-color: #3D445C;
+	background-color: #4D5573;
 }
 
 #touchNameError, #footerEmailReq, #footerEmailInvalid{
