@@ -312,3 +312,53 @@ footerBtn.addEventListener("mouseout", () => {
 	secondArrow.classList.add("btnOut");
 	secondArrow.classList.remove("btnIn");
 });
+
+
+//CheckBox Styles
+
+const
+	googleBefore       = document.getElementById("googleLabel"),
+	bingBefore         = document.getElementById("bingLabel"),
+	facebookBefore     = document.getElementById("facebook2Label"),
+	linkedinBefore     = document.getElementById("linkedinLabel"),
+	instagramBefore    = document.getElementById("instagram2Label"),
+	magazineBefore     = document.getElementById("magazineLabel"),
+	radioBefore        = document.getElementById("radioLabel"),
+	recoBefore         = document.getElementById("recoLabel"),
+	otherBefore        = document.getElementById("otherLabel"); 
+
+googleBefore.addEventListener("click", function (){
+	this.classList.toggle("checked");
+})
+
+bingBefore.addEventListener("click", function (){
+	this.classList.toggle("checked");
+})
+
+facebookBefore.addEventListener("click", function (){
+	this.classList.toggle("checked");
+})
+
+linkedinBefore.addEventListener("click", function (){
+	this.classList.toggle("checked");
+})
+
+instagramBefore.addEventListener("click", function (){
+	this.classList.toggle("checked");
+})
+
+magazineBefore.addEventListener("click", function (){
+	this.classList.toggle("checked");
+})
+
+radioBefore.addEventListener("click", function (){
+	this.classList.toggle("checked");
+})
+
+recoBefore.addEventListener("click", function (){
+	this.classList.toggle("checked");
+})
+
+otherBefore.addEventListener("click", function (){
+	this.classList.toggle("checked");
+})
