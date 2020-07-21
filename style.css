@@ -97,11 +97,13 @@ a{
 	list-style-type: none;
 	text-align: center;
 	margin: 20px;
+	transition: transform 500ms ease-in-out;
 }
 .burgerMenu a{
 	text-transform: capitalize;
 	color: white;
 	font-size: 2rem;
+	transition: color 500ms ease-in-out;
 }
 
 
@@ -150,11 +152,13 @@ a{
 	list-style-type: none;
 	display: inline-block;
 	margin-right: 25px;
+	transition: transform 500ms ease-in-out;
 }
 .navbar a{
 	text-transform: capitalize;
 	color: white;
 	font-size: 1.2rem;
+	transition: color 500ms ease-in-out;
 }
 .navbar li:last-child{
 	margin-right: 55px;
@@ -163,10 +167,19 @@ a{
 
 /*Li hover effect*/
 
+.navbar li:hover{
+	transform: rotate(360deg);
+}
+
+#burgerUl li:hover{
+	transform: rotate(360deg);
+}
+
 .navbar a:hover{
 	color: #EC008C;
 }
 #burgerUl a:hover{
+
 	color: #EC008C;
 }
 /*Grid contact*/

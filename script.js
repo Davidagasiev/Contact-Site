@@ -1,6 +1,6 @@
 //Menu Button
 const 
-	menuBtn = document.querySelectorAll('.menu-btn'),
+	menuBtn  = document.querySelectorAll('.menu-btn'),
 	menuList = document.getElementsByClassName("burgerMenu")[0],
 	burgerUl = document.getElementById("burgerUl");
 
