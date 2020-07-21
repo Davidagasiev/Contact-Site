@@ -326,8 +326,8 @@ a{
 }
 .grid-form2{
 	display: grid;
-	grid-template-columns: 25% 65%;
-	grid-gap: 10%;
+	grid-template-columns: 30% 65%;
+	grid-gap: 5%;
 }
 .grid-form3{
 	display: grid;

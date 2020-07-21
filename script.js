@@ -15,7 +15,7 @@ menuBtn[1].addEventListener('click', () => {
 
 // Show burger list
 	menuList.style.display = 'block';
-	menuList.style.height = 10000 + "px";
+	menuList.style.height = 100 + "vh";
 // To stop scrolling
 	document.body.style.overflow = 'hidden';
 });
