@@ -97,13 +97,13 @@ a{
 	list-style-type: none;
 	text-align: center;
 	margin: 20px;
-	transition: transform 500ms ease-in-out;
+	transition: transform 250ms ease-in-out;
 }
 .burgerMenu a{
 	text-transform: capitalize;
 	color: white;
 	font-size: 2rem;
-	transition: color 500ms ease-in-out;
+	transition: color 250ms ease-in-out;
 }
 
 
@@ -152,13 +152,13 @@ a{
 	list-style-type: none;
 	display: inline-block;
 	margin-right: 25px;
-	transition: transform 500ms ease-in-out;
+	transition: transform 250ms ease-in-out;
 }
 .navbar a{
 	text-transform: capitalize;
 	color: white;
 	font-size: 1.2rem;
-	transition: color 500ms ease-in-out;
+	transition: color 250ms ease-in-out;
 }
 .navbar li:last-child{
 	margin-right: 55px;
@@ -168,12 +168,11 @@ a{
 /*Li hover effect*/
 
 .navbar li:hover{
-	transform: rotate(360deg);
-	/*transform: skewX(20deg);*/
+	transform: skewX(20deg);
 }
 
 #burgerUl li:hover{
-	transform: rotate(360deg);
+	transform: skewX(20deg);
 }
 
 .navbar a:hover{
@@ -244,19 +243,15 @@ a{
 
 @keyframes mymove {
   0% {
-  	top: -6px; 
-  	/*left: -6px;*/
+  	top: -5px;
   }
   50% {
-  	top: 6px;
-  	/*left: 6px;*/
+  	top: 5px;
   }
   100% {
-  	top: -6px;
-  	/*left: -6px;*/
+  	top: -5px;
   }
 }
-
 
 .evenSvg{
 	position: relative;
@@ -265,22 +260,16 @@ a{
 }
 
 @keyframes mymove2 {
-  0% {
-  	top: 6px; 
-  	/*left: -6px;*/
+ 0% {
+  	top: 5px;
   }
   50% {
-  	top: -6px;
-  	/*left: 6px;*/
+  	top: -5px;
   }
   100% {
-  	top: 6px;
-  	/*left: -6px;*/
+  	top: 5px;
   }
 }
-
-
-
 .grid-image{
 	border: 1px solid #C5C5C5;
 	border-radius: 50%;

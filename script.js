@@ -259,7 +259,7 @@ let scrolled        = false;
 	}
 
 	window.addEventListener("scroll", () => {
-		if (!scrolled && window.pageYOffset > 200) {
+		if (!scrolled && window.pageYOffset > 150) {
 			secondSection.classList.add("secondSection");
 			secondSection.style.opacity = '1';
 			scrolled = true;
