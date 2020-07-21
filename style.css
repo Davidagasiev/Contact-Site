@@ -793,9 +793,7 @@ html{
 	.footer-contact2 h4{
 		text-align: left;
 	}
-	.meta{
-		grid-template-columns: 100%;
-	}
+	
 	.content-right2{
 		grid-template-columns: 100%;
 		grid-row-gap: 45px;
@@ -807,6 +805,12 @@ html{
 	}
 	#back-to-top{
 		float: left;
+	}
+}
+
+@media screen and (max-width: 990px){
+	.meta{
+		grid-template-columns: 100%;
 	}
 }
 
@@ -833,6 +837,9 @@ html{
 }
 
 #yourPhoto{
+	background-size: cover;
+	background-position: 50% 50%;
+	background-image: url(https://media-exp1.licdn.com/dms/image/C560BAQGgFBWr9Al5OA/company-logo_200_200/0?e=2159024400&v=beta&t=r5urbEJbOdmvz8UgYCY8aYCMkpRo8WX_2AqWpbg9juY);
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;

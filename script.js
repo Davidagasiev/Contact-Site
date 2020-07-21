@@ -272,7 +272,7 @@ function readURL(input) {
     var reader = new FileReader();
     
     reader.onload = function(e) {
-      $('#yourPhoto').attr('src', e.target.result);
+      $('#yourPhoto').css('backgroundImage', `url(${e.target.result})`);
     }
     
     reader.readAsDataURL(input.files[0]);
@@ -282,6 +282,8 @@ function readURL(input) {
 $("#imgInp").change(function() {
   readURL(this);
 });
+
+
 
 
 //Button Animations
@@ -312,6 +314,8 @@ footerBtn.addEventListener("mouseout", () => {
 	secondArrow.classList.add("btnOut");
 	secondArrow.classList.remove("btnIn");
 });
+
+
 
 
 //CheckBox Styles
