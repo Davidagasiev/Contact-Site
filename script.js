@@ -282,3 +282,33 @@ function readURL(input) {
 $("#imgInp").change(function() {
   readURL(this);
 });
+
+
+//Button Animations
+
+
+//Arrows
+const
+	firstArrow  = document.getElementById("mainArrow"),
+	secondArrow = document.getElementById("secondArrow");
+
+
+//First Arrow
+button.addEventListener("mouseover", () => {
+	firstArrow.classList.remove("btnOut");
+	firstArrow.classList.add("btnIn");
+});
+button.addEventListener("mouseout", () => {
+	firstArrow.classList.add("btnOut");
+	firstArrow.classList.remove("btnIn");
+});
+
+//Second Arrow
+footerBtn.addEventListener("mouseover", () => {
+	secondArrow.classList.remove("btnOut");
+	secondArrow.classList.add("btnIn");
+});
+footerBtn.addEventListener("mouseout", () => {
+	secondArrow.classList.add("btnOut");
+	secondArrow.classList.remove("btnIn");
+});

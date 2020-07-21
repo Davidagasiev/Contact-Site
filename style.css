@@ -876,3 +876,13 @@ html{
 		 width: 50%;
 	}
 }
+
+
+.btnIn{
+	transition: transform 300ms ease-in-out;
+	transform: rotate(360deg); 
+}
+.btnOut{
+	transition: transform 300ms ease-in-out;
+	transform: rotate(-360deg); 
+}
