@@ -168,7 +168,8 @@ a{
 /*Li hover effect*/
 
 .navbar li:hover{
-	transform: rotate(360deg);
+	/*transform: rotate(360deg);*/
+	transform: skewX(20deg);
 }
 
 #burgerUl li:hover{
@@ -793,5 +794,55 @@ html{
 	}
 	.content-left h1, .content-left p{
 		text-align: center;
+	}
+}
+
+
+/*File Input*/
+
+.photoInsertion{
+	margin-top: 70px;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-row-gap: 20px;
+}
+
+#yourPhoto{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#imgInp{
+	display: none;
+}
+
+#photoLabel{
+	padding-top: 20px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+    font-size: 18px;
+    height: 40px;
+   
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #ec008c;
+    border-width: 0;
+    border-radius: 25px;
+    box-shadow: 0 6px 18px rgba(236,6,142,.35);
+}
+
+
+@media screen and (max-width: 780px){
+	#photoLabel{
+	width: 100%;
+	}
+}
+
+@media screen and (min-width: 780px){
+	#photoLabel{
+		 width: 50%;
 	}
 }
