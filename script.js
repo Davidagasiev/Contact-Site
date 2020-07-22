@@ -175,7 +175,7 @@ button.addEventListener("click", () => {
 	const submitbtnDiv = document.getElementsByClassName("button")[0];
 window.addEventListener('resize', () => {
 	if (window.innerWidth <= 580 && moreInfoOpened) {
-		submitbtnDiv.style.margin = "200px auto 5px auto";
+		submitbtnDiv.style.margin = "100px auto 5px auto";
 		submitbtnDiv.style.textAlign = 'center';
 	}else {
 		submitbtnDiv.style.margin = "0 auto";
