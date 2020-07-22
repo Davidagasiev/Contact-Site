@@ -518,6 +518,7 @@ a{
 	color: #ec008c;
 	border-bottom: .1rem solid #ec008c;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 
