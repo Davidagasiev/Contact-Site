@@ -521,6 +521,9 @@ a{
 	cursor: pointer;
 }
 
+#morebtn{
+	cursor: pointer;
+}
 
 #submitbtn{
 	color: white;
@@ -743,6 +746,7 @@ html{
 }
 
 #back-to-top{
+	cursor: pointer;
 	background-color: transparent;
 	color: #7D8BBC;
 	font-size: 18px;
@@ -858,6 +862,7 @@ html{
 	margin: 0 auto;
 	text-align: center;
 	color: white;
+	cursor: pointer;
     font-size: 18px;
     height: 40px;
    
