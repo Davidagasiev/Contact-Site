@@ -181,6 +181,22 @@ window.addEventListener('resize', () => {
 		submitbtnDiv.style.margin = "0 auto";
 		submitbtnDiv.style.textAlign = 'center';
 	}
+	
+	//If burger menu is open and width of the window grows we should close burger menu
+if (menuOpen && window.innerWidth >= 990) {
+
+	menuBtn[1].classList.remove('open');
+    menuBtn[0].classList.remove('open');
+    menuOpen = false;
+// Remove burger list
+
+	menuList.style.display = 'none';
+	menuList.style.height = 0;
+    
+// To allow scrolling
+	document.body.style.overflow = '';
+	}
+
 });
 
 if (window.innerWidth <= 580 && moreInfoOpened) {
