@@ -529,6 +529,7 @@ a{
 	width: 100px;
 	margin-top: 70px;
 	margin-bottom:70px;
+	cursor: pointer;
 	background-color: #ec008c;
 	border-width: 0;
 	border-radius: 25px;
