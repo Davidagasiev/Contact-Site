@@ -385,6 +385,17 @@ a{
 	}
 }
 
+.more-info{
+	opacity: 0;
+	animation: 1s moreFadeIn 0.3s forwards;
+}
+
+@keyframes moreFadeIn{
+	100%{
+		opacity: 1;
+	}
+}
+
 .more-info-name{
     font-family: Proxima Nova Semibold,sans-serif;
     color: #33488E;
