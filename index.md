@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wandio</title>
+    <link rel="shortcut icon" type="image/png" href="https://wandio.com/assets/images/icons/favicon.ico?v=2">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>	
+	<a href="https://www.facebook.com/wandiodevelopment" target="_blank">
+<svg id="messenger" width="60px" height="60px" viewBox="0 0 60 60"><svg x="0" y="0" width="60px" height="60px"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g><circle fill="#ec008c" cx="30" cy="30" r="30"></circle><svg x="10" y="10"><g transform="translate(0.000000, -10.000000)" fill="#FFFFFF"><g id="logo" transform="translate(0.000000, 10.000000)"><path d="M20,0 C31.2666,0 40,8.2528 40,19.4 C40,30.5472 31.2666,38.8 20,38.8 C17.9763,38.8 16.0348,38.5327 14.2106,38.0311 C13.856,37.9335 13.4789,37.9612 13.1424,38.1098 L9.1727,39.8621 C8.1343,40.3205 6.9621,39.5819 6.9273,38.4474 L6.8184,34.8894 C6.805,34.4513 6.6078,34.0414 6.2811,33.7492 C2.3896,30.2691 0,25.2307 0,19.4 C0,8.2528 8.7334,0 20,0 Z M7.99009,25.07344 C7.42629,25.96794 8.52579,26.97594 9.36809,26.33674 L15.67879,21.54734 C16.10569,21.22334 16.69559,21.22164 17.12429,21.54314 L21.79709,25.04774 C23.19919,26.09944 25.20039,25.73014 26.13499,24.24744 L32.00999,14.92654 C32.57369,14.03204 31.47419,13.02404 30.63189,13.66324 L24.32119,18.45264 C23.89429,18.77664 23.30439,18.77834 22.87569,18.45674 L18.20299,14.95224 C16.80079,13.90064 14.79959,14.26984 13.86509,15.75264 L7.99009,25.07344 Z"></path></g></g></svg></g></g></svg></svg>
+</a>
+	<div class="burgerMenu">
+		<div class="menuButton">
+			<div class="menu-btn">
+    		<div class="menu-btn__burger"></div>
+  		</div>
+		</div>
+	<ul id="burgerUl" class="burgerAnimation">
+		<li title="Home"><a href="#">home</a></li>
+		<li title="About"><a href="#">about</a></li>
+		<li title="Our Process"><a href="#">our process</a></li>
+		<li title="Services"><a href="#">services</a></li>
+		<li title="Work"><a href="#">work</a></li>
+		<li title="Blog"><a href="#">blog</a></li>
+		<li title="Contact"><a href="#" style="color: #EC008C;">contact</a></li>
+	</ul>
+</div>
+	<header>
+		<div class="logo">
+			<a href="#">
+
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="413.819" height="124.215" viewBox="0 0 413.819 124.215"><defs><path id="a" d="M26.422 11.292C10.451 22.53 0 41.09 0 62.106c0 34.298 27.806 62.108 62.101 62.108 15.002 0 28.766-5.326 39.494-14.182 13.807-11.395 22.609-28.636 22.609-47.927C124.204 27.806 96.402 0 62.101 0a61.782 61.782 0 0 0-35.679 11.292"></path></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"></use></clipPath><radialGradient id="c" cx="123.616" cy="261.228" r="3.42" gradientTransform="matrix(23.8766 0 0 -23.8766 -2889.434 6299.034)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ee5892"></stop><stop offset=".058" stop-color="#ee5892"></stop><stop offset=".278" stop-color="#ee5892"></stop><stop offset=".707" stop-color="#d42273"></stop><stop offset="1" stop-color="#d42273"></stop></radialGradient><path clip-path="url(#b)" fill="url(#c)" d="M0 0h124.204v124.215H0z"></path><defs><path id="d" d="M36.798 24.909v49.474h29.557c14.619 0 26.578-9.747 26.578-24.374v-.733c0-14.627-11.959-24.366-26.578-24.366H36.798z"></path></defs><clipPath id="e"><use xlink:href="#d" overflow="visible"></use></clipPath><linearGradient id="f" gradientUnits="userSpaceOnUse" x1="120.601" y1="275.925" x2="124.021" y2="275.925" gradientTransform="scale(14.232 -14.232) rotate(33.871 521.975 -56.258)"><stop offset="0" stop-color="#f294bd"></stop><stop offset=".177" stop-color="#f294bd"></stop><stop offset=".864" stop-color="#fff"></stop><stop offset="1" stop-color="#fff"></stop></linearGradient><path clip-path="url(#e)" fill="url(#f)" d="M13.909 40.274l61.59-41.339 40.322 60.076-61.588 41.346z"></path><defs><path id="g" d="M36.798 24.909h56.135v73.827H36.798z"></path></defs><clipPath id="h"><use xlink:href="#g" overflow="visible"></use></clipPath><g clip-path="url(#h)"><defs><path id="i" d="M36.798 24.909v73.827h56.135z"></path></defs><clipPath id="j"><use xlink:href="#i" overflow="visible"></use></clipPath><linearGradient id="k" gradientUnits="userSpaceOnUse" x1="140.664" y1="278.871" x2="144.083" y2="278.871" gradientTransform="matrix(0 -16.1137 -16.1137 0 4558.523 2365.436)"><stop offset="0" stop-color="#f294bd"></stop><stop offset=".177" stop-color="#f294bd"></stop><stop offset=".864" stop-color="#fff"></stop><stop offset="1" stop-color="#fff"></stop></linearGradient><path clip-path="url(#j)" fill="url(#k)" d="M36.798 24.909h56.135v73.827H36.798z"></path></g><path fill="#FFF" d="M199.56 32.565c0-9.874-7.782-16.676-17.725-16.676h-25.469v52.344h9.721V49.158h13.285l12.852 19.076h10.325v-.532l-13.461-19.81c6.208-2.394 10.472-8.004 10.472-15.327zm-18.543 7.999h-14.93V24.79h14.93c5.008 0 8.816 2.989 8.816 7.92 0 4.859-3.808 7.854-8.816 7.854zm54.589-4.264c-2.992-3.59-7.325-5.605-12.484-5.605-10.617 0-18.25 8.368-18.25 19.211 0 10.844 7.633 19.218 18.25 19.218 5.16 0 9.493-2.021 12.484-5.61v4.72h8.967V31.589h-8.967V36.3zm-21.534 13.606c0-6.498 4.188-11.141 11.212-11.141 3.059 0 5.666.883 7.935 2.725.295.298 2.388 2.496 2.388 5.358v6.079c0 2.819-2.023 4.996-2.376 5.348-2.269 1.853-4.882 2.703-7.946 2.703-7.025.001-11.213-4.564-11.213-11.072zM282.139 36.3c-2.992-3.59-7.328-5.605-12.484-5.605-10.617 0-18.246 8.368-18.246 19.211 0 10.844 7.628 19.218 18.246 19.218 5.157 0 9.493-2.021 12.484-5.61v4.72h8.972V15.89h-8.972V36.3zm-21.537 13.606c0-6.498 4.194-11.141 11.218-11.141 3.084 0 5.723.899 7.995 2.772.462.481 2.223 2.51 2.324 5.095v6.51c-.101 2.572-1.841 4.589-2.31 5.086-2.284 1.884-4.92 2.75-8.01 2.75-7.023.001-11.217-4.564-11.217-11.072z"></path><path fill="#D53C81" d="M304.345 15.14c-3.16 0-5.55 2.392-5.55 5.34 0 2.95 2.391 5.342 5.55 5.342 3.09 0 5.475-2.392 5.475-5.342-.001-2.948-2.385-5.34-5.475-5.34z"></path><path fill="#FFF" d="M299.786 31.589h9.044v36.645h-9.044zm35.976 29.314c-7.102 0-11.065-4.715-11.065-10.997 0-6.275 3.885-10.987 10.996-10.987 4.333 0 7.695 2.093 9.27 5.533l7.397-4.04c-2.694-5.904-8.816-9.717-16.829-9.717-12.557 0-19.951 8.595-19.951 19.211 0 10.546 7.466 19.218 20.182 19.218 8.004 0 14.129-3.882 16.829-9.718l-7.406-4.039c-1.572 3.44-4.936 5.536-9.423 5.536zM387.203 36.3c-2.995-3.59-7.325-5.605-12.493-5.605-10.611 0-18.237 8.368-18.237 19.211 0 10.844 7.625 19.218 18.237 19.218 5.168 0 9.498-2.021 12.493-5.61v4.72h8.972V31.589h-8.972V36.3zm-21.541 13.606c0-6.498 4.197-11.141 11.225-11.141 3.075 0 5.697.899 7.978 2.764.434.448 2.255 2.508 2.339 5.141v6.432c-.084 2.606-1.865 4.656-2.327 5.137-2.281 1.875-4.914 2.74-7.989 2.74-7.029 0-11.226-4.565-11.226-11.073zm39.115-35.51h9.042v53.838h-9.042z"></path><path d="M158.108 88.329v-.267h4.44l4.963 16.773 5.563-16.114h3.285l5.588 16.114 4.969-16.773h4.405v.267l-7.267 22.756h-3.914l-5.423-15.784-5.429 15.784h-3.885l-7.295-22.756zm42.768 19.702c1.942 0 3.489-.6 4.966-1.712l1.484 2.989c-1.781 1.353-3.816 2.17-6.583 2.17-5.752 0-9.302-3.55-9.302-8.518 0-4.637 3.22-8.381 8.48-8.381 5.395 0 8.85 3.843 8.188 10.127h-12.522c.621 2.136 2.493 3.325 5.289 3.325zm3.356-6.351c-.362-2.528-1.939-3.746-4.278-3.746-2.465 0-4.042 1.443-4.47 3.746h8.748zm25.085 1.35c0 4.766-3.35 8.448-8.027 8.448-2.263 0-4.206-.887-5.489-2.463v2.069h-3.977V88.063h3.977v8.98c1.284-1.574 3.226-2.463 5.489-2.463 4.677 0 8.027 3.675 8.027 8.45zm-4.078 0c0-2.865-1.804-4.902-4.929-4.902-1.812 0-3.324.723-4.509 2.271v5.227c1.185 1.58 2.697 2.269 4.509 2.269 3.125 0 4.929-2.003 4.929-4.865zm37.117-3.455c0 6.542-5.16 11.51-11.999 11.51h-9.374V88.063h9.374c6.84 0 11.999 4.972 11.999 11.512zm-4.274 0c0-4.407-3.186-7.494-7.724-7.494h-5.102v14.996h5.102c4.538 0 7.724-3.132 7.724-7.502zm16.603 8.456c1.939 0 3.486-.6 4.969-1.712l1.477 2.989c-1.772 1.353-3.815 2.17-6.579 2.17-5.749 0-9.302-3.55-9.302-8.518 0-4.637 3.223-8.381 8.481-8.381 5.397 0 8.848 3.843 8.192 10.127h-12.534c.628 2.136 2.504 3.325 5.296 3.325zm3.359-6.351c-.364-2.528-1.94-3.746-4.278-3.746-2.465 0-4.044 1.443-4.472 3.746h8.75zm6.342 7.565l1.581-3.156c1.674 1.343 3.815 1.942 6.18 1.942 2.466 0 3.683-.629 3.683-1.712 0-1.121-1.287-1.183-4.31-1.582-3.879-.493-6.706-1.382-6.706-4.766 0-3.293 2.827-5.392 7.238-5.392 4.039 0 6.278 1.773 7.302 3.941l-3.263 1.514c-.523-1.379-1.972-2.069-4.009-2.069-2.139 0-3.258.758-3.258 1.74 0 1.02 1.22 1.255 3.885 1.58 4.076.561 7.201 1.218 7.201 4.803 0 3.55-3.061 5.39-7.894 5.39-3.026.001-5.529-.718-7.63-2.233zm18.445-19.336c0-1.384 1.119-2.498 2.596-2.498 1.448 0 2.564 1.114 2.564 2.498 0 1.38-1.116 2.497-2.564 2.497-1.478 0-2.596-1.117-2.596-2.497zm4.569 21.176h-3.98V94.974h3.98v16.111zm21.086-16.111v15.058c0 4.736-3.122 8.026-9.074 8.026-2.896 0-5.096-.788-6.908-2.006l1.35-3.286c1.584 1.18 3.388 1.74 5.426 1.74 3.515 0 5.264-1.642 5.264-4.475v-1.15c-1.321 1.58-3.226 2.471-5.492 2.471-4.674 0-8.024-3.688-8.024-8.391 0-4.706 3.35-8.381 8.024-8.381 2.267 0 4.171.889 5.492 2.463v-2.069h3.942zm-3.943 5.425c-1.217-1.549-2.694-2.271-4.535-2.271-3.093 0-4.937 2.037-4.937 4.833 0 2.798 1.844 4.806 4.937 4.806 1.841 0 3.318-.689 4.535-2.271v-5.097zm23.803.627v10.059h-3.945v-9.864c0-1.844-1.289-3.029-3.295-3.029-1.679 0-3.084.823-4.405 2.534v10.359h-3.98V94.974h3.98v2.139c1.382-1.644 3.093-2.532 5.46-2.532 3.911-.001 6.185 2.497 6.185 6.445z" fill="#D53C81"></path></svg>
+			</a>
+		</div>
+		<div class="navbar">
+			<ul id="navbarList">
+				<li title="Home"><a href="#">home</a></li>
+				<li title="About"><a href="#">about</a></li>
+				<li title="Our Process"><a href="#">our process</a></li>
+				<li title="Services"><a href="#">services</a></li>
+				<li title="Work"><a href="#">work</a></li>
+				<li title="Blog"><a href="#">blog</a></li>
+				<li title="Contact"><a href="#" style="color: #EC008C;">contact</a></li>
+			</ul>
+
+		</div>
+		<div class="menuButton">
+			<div class="menu-btn">
+    		<div class="menu-btn__burger"></div>
+  		</div>
+		</div>
+		<div class="nav-content">
+			<div class="left-content">
+				<h1>Contact</h1>
+			<div class="link">
+				<a href="#" rel="home">
+		            <svg style="position: relative; top: 2px; right: 4px;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 52 44"><path fill="#EC008C" d="M52 19l-11-8V2h-4v6L26 0 0 19l2 3 6-4v26h36V18l6 4 2-3zM23 40V25h7v15h-7zm17 0h-6V21H19v19h-7V15L26 5l14 10v25z"></path></svg>
+		            <span>Home</span>
+           		</a> 	
+			</div>
+			</div>
+			<div class="right-content">
+				<p>We’ll give you clear information, creative solutions and straight answers to your questions.</p>
+			</div>
+			
+		</div>
+	</header>
+	<section>
+		<div class="grid-container">
+<!-- First Grid Item -->
+		  <div class="grid-item">
+			<div class="grid-image">
+				<svg class="oddSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid meet" style=" transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_2"><rect width="500" height="500" x="0" y="0"></rect></clipPath><filter id="__lottie_element_7" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%"><feComponentTransfer in="SourceGraphic"><feFuncA type="table" tableValues="1.0 0.0"></feFuncA></feComponentTransfer></filter><mask id="__lottie_element_6" mask-type="alpha"><g filter="url(#__lottie_element_7)"><rect width="500" height="500" x="0" y="0" fill="#ffffff" opacity="0"></rect><g transform="matrix(16.149999618530273,0,0,16.149999618530273,130.39190673828125,22.958831787109375)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,7.400000095367432,9.350000381469727)"><path fill="rgb(255,255,255)" fill-opacity="1" d=" M0,9.350000381469727 C-0.10000000149011612,9.350000381469727 -0.30000001192092896,9.24899959564209 -0.30000001192092896,9.149999618530273 C-0.30000001192092896,9.149999618530273 -5.5,0.05000000074505806 -5.5,0.05000000074505806 C-7.199999809265137,-2.8499999046325684 -6.300000190734863,-6.550000190734863 -3.4000000953674316,-8.350000381469727 C-3.4000000953674316,-8.350000381469727 -3.299999952316284,-8.350000381469727 -3.299999952316284,-8.350000381469727 C-1.2999999523162842,-9.649999618530273 1.2999999523162842,-9.649999618530273 3.299999952316284,-8.350000381469727 C3.299999952316284,-8.350000381469727 3.4000000953674316,-8.350000381469727 3.4000000953674316,-8.350000381469727 C6.300000190734863,-6.550000190734863 7.199999809265137,-2.8499999046325684 5.5,0.05000000074505806 C5.5,0.05000000074505806 0.30000001192092896,9.149999618530273 0.30000001192092896,9.149999618530273 C0.20000000298023224,9.24899959564209 0.10000000149011612,9.350000381469727 0,9.350000381469727z"></path></g></g></g></mask></defs><g  clip-path="url(#__lottie_element_2)"><g mask="url(#__lottie_element_6)" style="display: block;"><g transform="matrix(1,0,0,1,250,253.75)" opacity="1"><g opacity="0" transform="matrix(1.5,0,0,1.5,0,-64.375)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(232,62,140)" stroke-opacity="1" stroke-width="13" d=" M-2.75,80.75 C-42.185001373291016,80.4010009765625 -113.5,93.25 -113.25,126.5 C-112.96600341796875,164.25599670410156 -41.14899826049805,176.39199829101562 -0.75,176.75 C41.79199981689453,177.12600708007812 110.25,163.25 111.75,128 C113.2699966430664,92.27899932861328 39.40299987792969,81.12300109863281 -2.75,80.75z"></path></g></g></g><g transform="matrix(16.149999618530273,0,0,16.149999618530273,130.39190673828125,22.958831787109375)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(232,62,140)" fill-opacity="1" d=" M7.4,18.7 C7.3,18.7 7.1,18.6 7.1,18.5 C7.1,18.5 1.9,9.4 1.9,9.4 C0.2,6.5 1.1,2.8 4,1 C4,1 4.1,1 4.1,1 C6.1,-0.3 8.7,-0.3 10.7,1 C10.7,1 10.8,1 10.8,1 C13.7,2.8 14.6,6.5 12.9,9.4 C12.9,9.4 7.7,18.5 7.7,18.5 C7.6,18.6 7.5,18.7 7.4,18.7z M7.4,0.7 C6.4,0.7 5.4,1 4.5,1.5 C4.5,1.5 4.4,1.5 4.4,1.5 C1.9,3.2 1,6.5 2.5,9 C2.5,9 7.4,17.5 7.4,17.5 C7.4,17.5 12.2,9 12.2,9 C13.7,6.4 12.9,3.2 10.3,1.6 C10.3,1.6 10.2,1.5 10.2,1.5 C9.4,1 8.4,0.7 7.4,0.7z M7.4,8.7 C6.1,8.7 5,7.6 5,6.3 C5,5 6.1,3.9 7.4,3.9 C8.7,3.9 9.8,5 9.8,6.3 C9.8,7.6 8.7,8.7 7.4,8.7z M7.4,4.7 C6.5,4.7 5.8,5.4 5.8,6.3 C5.8,7.2 6.5,7.9 7.4,7.9 C8.3,7.9 9,7.2 9,6.3 C9,5.4 8.3,4.7 7.4,4.7z"></path><g opacity="1" transform="matrix(1,0,0,1,7.400000095367432,9.350000381469727)"></g><g opacity="1" transform="matrix(1,0,0,1,7.400000095367432,6.300000190734863)"></g></g></g></g></svg>
+			</div>
+			<strong>Address</strong>
+			<p>A. Kazbegi 42, Tbilisi</p>
+		  </div>
+<!-- Second Grid Item -->
+		  <div class="grid-item">
+			<div class="grid-image">
+				<svg class="evenSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"preserveAspectRatio="xMidYMid meet" style="transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_14"><rect width="500" height="500" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_14)"><g transform="matrix(0.9999994039535522,0.0010988679714500904,-0.0010988679714500904,0.9999994039535522,250.05015563964844,250.05917358398438)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(232,62,140)" stroke-opacity="1" stroke-width="13" d=" M90.54199981689453,16.861000061035156 C78.25399780273438,12.982000350952148 61.85300064086914,15.633999824523926 55,25 C47.5,35.25 30.312000274658203,71.56199645996094 30.25,71.5 C-8,49.75 -72.25,-30.5 -71.75,-30.25 C-55.625,-40.25 -31.731000900268555,-44.645999908447266 -19.75,-60.5 C-3.125,-82.5 -21,-103.5 -21,-103.5 C-21,-103.5 -83.125,-164.625 -83.125,-164.625 C-83.125,-164.625 -105.85199737548828,-177.0989990234375 -122,-164.75 C-122,-164.75 -122,-164.75 -122,-164.75 C-136.875,-153.375 -146.03399658203125,-144.7519989013672 -159.75,-129.625 C-168.25,-120.25 -173.08700561523438,-104.23799896240234 -169,-73.75 C-156.5,19.5 -9.5,166.5 90.75,169.5 C105.38700103759766,169.93800354003906 116.61000061035156,167.4219970703125 128.125,158.375 C145.625,144.625 155.25,135.25 164.75,122.75 C172.0500030517578,113.14399719238281 168.875,90.375 160.375,83 C141.61300659179688,66.72200012207031 116,36.25 100,22 C97.44100189208984,19.72100067138672 94.1709976196289,18.006000518798828 90.54199981689453,16.861000061035156"></path></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(79,193,224)" stroke-opacity="1" stroke-width="13" d="M0 0"></path></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(39,55,108)" stroke-opacity="1" stroke-width="13" d="M0 0"></path></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(232,62,140)" stroke-opacity="1" stroke-width="10" d="M0 0"></path></g></g></g></svg>
+			</div>
+			<strong>Phone</strong>
+			<p>+995 32 2 880203</p>
+		  </div>
+<!-- Third Grid Item -->
+		  <div class="grid-item">
+			<div class="grid-image">
+				<svg class="oddSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid meet" style="transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_19"><rect width="500" height="500" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_19)"><g transform="matrix(0.9999626874923706,-0.00864125695079565,0.007921629585325718,0.9166877269744873,248.5939178466797,254.58755493164062)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(232,62,140)" stroke-opacity="1" stroke-width="13" d=" M-175.5,-46.5 C-175.5,-46.5 0.5,63.5 0.5,63.5 C0.5,63.5 173.75,-46.5 173.75,-46.5 M176,-44.5 C176,-44.5 176,174.5 176,174.5 C176,176.15570068359375 174.65570068359375,177.5 173,177.5 C173,177.5 -173,177.5 -173,177.5 C-174.65570068359375,177.5 -176,176.15570068359375 -176,174.5 C-176,174.5 -176,-44.5 -176,-44.5 C-176,-46.15570068359375 -174.65570068359375,-47.5 -173,-47.5 C-173,-47.5 173,-47.5 173,-47.5 C174.65570068359375,-47.5 176,-46.15570068359375 176,-44.5z M-175.5,-46.5 C-175.5,-46.5 0.5,63.5 0.5,63.5 C0.5,63.5 173.75,-46.5 173.75,-46.5"></path><g opacity="1" transform="matrix(1,0,0,1,0,0)"></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"></g></g></g></g></svg>
+			</div>
+			<strong>job@wandio.com</strong>
+			<p>E-mail us directly or use the enquiry form below.</p>
+		  </div>  
+<!-- Fourth Grid Item -->
+		  <div class="grid-item">
+			<div class="grid-image">
+				<svg class="evenSvg" style="right: 7px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid meet" style=" transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_24"><rect width="500" height="500" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_24)"><g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,192.09768676757812,282.3975830078125)"><g opacity="1" transform="matrix(0.9658424258232117,-0.25913000106811523,-0.25913000106811523,-0.9658424258232117,118.32194519042969,-31.74510383605957)"></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><g class="01" opacity="1" transform="matrix(1,0,0,1,0,0)"></g></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><g opacity="1" transform="matrix(1,0,0,1,-200,-200)"></g></g><g opacity="1" transform="matrix(1,0,0,1,-135,0)"><g opacity="1" transform="matrix(1,0,0,1,0,0)"></g></g></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><g opacity="1" transform="matrix(1,0,0,1,192.09768676757812,282.3975830078125)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(232,62,140)" stroke-opacity="1" stroke-width="13" d=" M0,0 C0,0 45.57,26.29 75.03,43.29 C103.88,59.93 148.17,85.48 150.01,86.54"></path><g opacity="1" transform="matrix(0.9658424258232117,-0.25913000106811523,-0.25913000106811523,-0.9658424258232117,118.32194519042969,-31.74510383605957)"></g></g></g></g><g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,324.51129150390625,170.99588012695312)"><g opacity="1" transform="matrix(-0.3196223974227905,0.9475449919700623,0.9475449919700623,0.3196223974227905,-33.260955810546875,98.60464477539062)"></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><g class="01" opacity="1" transform="matrix(1,0,0,1,0,0)"></g></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><g opacity="1" transform="matrix(1,0,0,1,-200,-200)"></g></g><g opacity="1" transform="matrix(1,0,0,1,-135,0)"><g opacity="1" transform="matrix(1,0,0,1,0,0)"></g></g></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><g opacity="1" transform="matrix(1,0,0,1,324.51129150390625,170.99588012695312)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(232,62,140)" stroke-opacity="1" stroke-width="13" d=" M0,0 C0,0 -40.04,19.84 -65.93,32.67 C-91.28,45.23 -130.19,64.52 -131.81,65.32"></path><g opacity="1" transform="matrix(-0.3196223974227905,0.9475449919700623,0.9475449919700623,0.3196223974227905,-33.260955810546875,98.60464477539062)"></g></g></g></g><g transform="matrix(1,0,0,1,386.62774658203125,392.04742431640625)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(232,62,140)" stroke-opacity="1" stroke-width="13" d=" M0,-48.5 C26.76715087890625,-48.5 48.5,-26.76715087890625 48.5,0 C48.5,26.76715087890625 26.76715087890625,48.5 0,48.5 C-26.76715087890625,48.5 -48.5,26.76715087890625 -48.5,0 C-48.5,-26.76715087890625 -26.76715087890625,-48.5 0,-48.5z"></path></g></g><g transform="matrix(1,0,0,1,148.1086883544922,259.2875671386719)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(232,62,140)" stroke-opacity="1" stroke-width="13" d=" M0,-48.5 C26.76715087890625,-48.5 48.5,-26.76715087890625 48.5,0 C48.5,26.76715087890625 26.76715087890625,48.5 0,48.5 C-26.76715087890625,48.5 -48.5,26.76715087890625 -48.5,0 C-48.5,-26.76715087890625 -26.76715087890625,-48.5 0,-48.5z"></path></g></g><g transform="matrix(1,0,0,1,370.9313049316406,146.52587890625)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(232,62,140)" stroke-opacity="1" stroke-width="13" d=" M0,-48.5 C26.76715087890625,-48.5 48.5,-26.76715087890625 48.5,0 C48.5,26.76715087890625 26.76715087890625,48.5 0,48.5 C-26.76715087890625,48.5 -48.5,26.76715087890625 -48.5,0 C-48.5,-26.76715087890625 -26.76715087890625,-48.5 0,-48.5z"></path></g></g></g></svg>
+			</div>
+			<strong>Social Media</strong>
+			<a href="https://www.facebook.com/wandiodevelopment" target="_blank" id="facebook">Facebook profile »</a>
+			<a href="https://www.instagram.com/wandiodevelopment" id="instagram" target="_blank">Instagram profile »</a>
+		  </div>
+		</div>
+	</section>
+	<section id="secondSection">
+
+		<div class="container">
+			<h1 id="started">Let’s get started</h1>
+
+			
+				<form novalidate onsubmit="return false">
+					
+				
+				<div class="photoInsertion">
+
+				<p style="text-align: center;">
+
+					<div id="yourPhoto" title="Your Photo"></div>
+				</p>
+
+	
+
+
+								<input type='file' accept="image/*" id="imgInp" />
+					<label for="imgInp" id="photoLabel" ><img src="https://image.flaticon.com/icons/png/512/16/16410.png" width="20px" style="filter:invert(100%); position: relative; top: 3px;"> Please Insert Your Photo</label>
+				
+
+				</div>
+
+
+				<div class="grid-form">
+					<div class="wrapper">
+      				<div class="input-data">
+        			<input type="text" id="name" required>
+        			<div class="underline"></div>
+					<label>Your name</label>
+
+
+					<p class="errors" id="nameReq">The field is required.</p>
+
+
+      			</div>
+			</div>
+			
+			<div class="wrapper">
+      			<div class="input-data">
+        			<input type="text" id="email" required>
+        			<div class="underline"></div>
+					<label>E-mail address</label>
+
+					<p class="errors" id="emailReq">The field is required.</p>
+
+					<p class="errors" id="emailInvalid">The e-mail address entered is invalid.</p>
+
+
+      			</div>
+			</div>
+
+			<div class="wrapper">
+      			<div class="input-data">
+        			<input type="text" id="phone" required>
+        			<div class="underline"></div>
+					<label>Phone number</label>
+
+
+					<p class="errors" id="phoneReq">The field is required.</p>
+
+					<p class="errors" id="phoneInvalid">The telephone number is invalid.</p>
+
+
+      			</div>
+			</div>
+				</div>
+				
+			<div class="grid-form2">
+							<div class="wrapper">
+      			<div class="input-data">
+        			<input type="text" id="company" required>
+        			<div class="underline"></div>
+					<label class="withoutAfter">Company/Organization</label>
+      			</div>
+			</div>
+
+			<div class="wrapper">
+      			<div class="input-data">
+        			<input type="text" id="url" required>
+        			<div class="underline" ></div>
+					<label class="withoutAfter">Current website URL</label>
+
+					<p class="errors" id="urlInvalid">The URL is invalid.</p>
+
+
+      			</div>
+			</div>
+			</div>
+
+
+			<div class="wrapper">
+      			<div class="input-data">
+        			<input type="text" id="help" required>
+        			<div class="underline"></div>
+					<label>How can we help?</label>
+
+
+					<p class="errors" id="helpReq">The field is required.</p>
+
+
+      			</div>
+			</div>
+					
+				
+				<div class="more-info" style="display: none;">
+
+					<div class="grid-form3">
+					<div class="wrapper">
+
+						<h3 class="more-info-name">Timeframe <span class="more-info-name-span"> (approximate)</span></h3>
+
+      				<div class="input-data">
+        			<input type="text" class="timeframe" id="timeframe" required>
+        			<div class="underline"></div>
+      			</div>
+			</div>
+			
+			<div class="wrapper">
+
+				<h3 class="more-info-name">Budget <span class="more-info-name-span"> (approximate)</span></h3>
+
+      			<div class="input-data">
+        			<input type="text" class="budget" id="budget" required>
+        			<div class="underline"></div>
+      			</div>
+			</div>
+				</div>
+
+				<div class="checkbox">
+					<h3 class="more-info-name">How did you find out about us?</h3>
+
+					<div class="checkbox-grid">
+						<div>
+							<input type="checkbox" id="google" name="Google" >
+							<label for="google" id="googleLabel">Google</label>
+						</div>
+						<div>
+							<input type="checkbox" id="bing" name="Bing">
+							<label for="bing" id="bingLabel">Bing</label>
+						</div>
+						<div>
+							<input type="checkbox" id="facebook2" name="Facebook">
+							<label for="facebook2" id="facebook2Label">Facebook</label>
+						</div>
+						<div>
+							<input type="checkbox" id="linkedin" name="LinkedIn">
+							<label for="linkedin" id="linkedinLabel">LinkedIn</label>
+						</div>
+						<div>
+							<input type="checkbox" id="instagram2" name="Instagram">
+							<label for="instagram2" id="instagram2Label">Instagram</label>
+						</div>
+						<div>
+							<input type="checkbox" id="magazine" name="Magazine">
+							<label for="magazine" id="magazineLabel">Magazine</label>
+						</div>
+						<div>
+							<input type="checkbox" id="radio" name="Radio">
+							<label for="radio" id="radioLabel">Radio</label>
+						</div>
+						<div>
+							<input type="checkbox" id="reco" name="Recommendation">
+							<label for="reco" id="recoLabel">Recommendation</label>
+						</div>
+						<div>
+							<input type="checkbox" id="other" name="Other">
+							<label for="other" id="otherLabel">Other</label>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="submitting">
+					<div id="moreQ">
+
+					<span id="morebtn"><span class="moreQ">Do you have time for three more questions? 
+					</span>
+					<span id="moreQ2" style="color: #ACACAC;line-height: 2;"> (optional)</span><img width="10px;" src="https://www.shareicon.net/data/512x512/2015/12/17/689007_arrows_512x512.png" alt="arrow"></span>
+					</div>
+					
+				</div>
+				<div id="unknown"></div>
+				<div class="button">
+					<p style="text-align: center;">
+					<button id="submitbtn" type="submit" class="mainBtn"><strong>Submit <svg id="mainArrow" width="13px" style="
+    margin-left: 5px;
+" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 40">
+<path fill="white" d="M51.6 21.5c0-.1.1-.2.1-.3 0-.1.1-.2.1-.3 0-.1.1-.2.1-.3v-1.2c0-.1-.1-.2-.1-.3 0-.1 0-.2-.1-.3 0-.1-.1-.2-.1-.3 0-.1-.1-.2-.1-.3-.1-.1-.1-.2-.2-.2l-.2-.2L34.6.9C33.4-.3 31.5-.3 30.4.8 29.2 2 29.2 3.9 30.3 5l11.5 12H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h39L30.3 34.9c-1.2 1.2-1.1 3.1 0 4.2.6.6 1.3.9 2.1.9s1.6-.3 2.1-.9L51 22.2l.2-.2c.1-.1.1-.2.2-.2.2-.1.2-.2.2-.3z"></path></svg></strong> </button>
+					</p>
+			</div>
+
+				<div class="validationError errors2" id="validationError">
+
+					<p><img src="https://radicalwebdesign.co.uk/wp-content/themes/radicalwebdesign/assets/images/vectors/exit-icon.svg" alt="Error"> One or more fields have an error. Please check and try again.</p>
+				</div>
+
+				</form>
+
+		</div>
+	</section>
+	<footer>
+		
+			<div class="footer1">
+				<div class="container">
+					<div class="footer-contact-grid">
+						
+						<div class="footer-contact1">
+					<h4>
+						Wandio Development
+					</h4>
+					<p>
+						Alexandre Kazbegi 42, Tbilisi Georgia
+					</p>
+					
+					<div class="meta">
+						<a href="tel:
+					+995 32 2 880203">
+						<span class="icon svg-container" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#ec008c" d="M19 2a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V2zm-8.5 0h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zM12 22a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-3H7V4.976h10V19z"></path></svg> 
+                               		</span>
+						+995 32 2 880203
+					</a>
+
+					<a href="mailto:job@wandio.com">
+						<span class="icon svg-container" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#ec008c" d="M0 3v18h24V3H0zm21.518 2L12 12.713 2.482 5h19.036zM2 19V7.183l10 8.104 10-8.104V19H2z"></path></svg>                                </span>
+
+						job@wandio.com
+
+					</a>
+					</div>
+						</div>
+				
+
+				<div class="footer-contact2">
+				<div class="float-contact">
+					<h4>
+						Follow us on social media
+					</h4>
+					
+					<ul class="social-media">
+                                                            <li>
+                                    <a href="https://www.facebook.com/wandiodevelopment" target="_blank" title="Facebook" alt="https://www.facebook.com/radical.web.design/" aria-label="Social Media" rel="nofollow noopener noreferrer">
+                                            <span class="icon svg-container no-color"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"> <path fill="#3B5998" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"></path> </svg>                                             </span>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="https://twitter.com/Wandio_com" target="_blank" alt="https://twitter.com/Wandio_com" title="Twitter" aria-label="Social Media" rel="nofollow noopener noreferrer">
+                                            <span class="icon svg-container no-color"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"> <path style="fill:#55ACEE;" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"></path> </svg>                                             </span>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.linkedin.com/company/wandio" target="_blank" alt="https://www.linkedin.com/company/wandio" title="LinkedIn" aria-label="Social Media" rel="nofollow noopener noreferrer">
+                                            <span class="icon svg-container no-color"> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"> <path style=" fill: #0077B5" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"></path> </svg>                                             </span>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.instagram.com/wandiodevelopment" target="_blank" alt="https://www.instagram.com/wandiodevelopment" title="Instagram" aria-label="Social Media" rel="nofollow noopener noreferrer">
+                                            <span class="icon svg-container no-color"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"> <path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z" style="fill: #a9308d"></path> </svg>                                             </span>
+                                    </a>
+                                </li>
+                                   
+				</div>
+				</div>
+
+				</div>
+			</div>
+		</div>
+			<div class="footer2">
+				<div class="container">
+
+
+					<div class="middle-section">
+					<div class="content-left">
+						<h1>
+						<img src="https://radicalwebdesign.co.uk/wp-content/themes/radicalwebdesign/assets/images/vectors/newsletter-icon.svg" class="icon d-none d-md-block">
+							<span>
+							Let's stay 
+						</span>in touch</h1>
+						<p>
+							<span>
+								Subscribe to our newsletter
+							</span>
+							 and don’t miss out on latest news, blog posts and special offers.
+						</p>
+					</div>
+						
+					<div class="content-right">
+						
+					<div class="content-right2">
+						
+					<!-- First Input -->
+
+						<div class="wrapper" style="margin-top: 0;">
+      					<div class="input-data">
+        					<input type="text" id="touchName" required>
+        					<div class="underline"></div>
+							<label>Your name</label>
+
+
+							<p class="errors" id="touchNameError">The field is required.</p>
+
+
+      					</div>
+					</div>
+
+
+					<!-- Second Input -->
+					<div class="wrapper" style="margin-top: 0;">
+      					<div class="input-data">
+        					<input type="text" id="touchEmail" required>
+        					<div class="underline"></div>
+							<label>E-mail address</label>
+
+
+							<p class="errors" id="footerEmailReq">The field is required.</p>
+
+
+							<p class="errors" id="footerEmailInvalid">Invalid E-mail address.</p>
+
+      					</div>
+					</div>
+
+				
+					<button id="submitbtn" class="footerSubbtn" type="submit" style="margin-top: 0px;
+    margin-bottom: 0px;"><strong>Subscribe <svg width="13px" id="secondArrow"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 40">
+<path fill="white" d="M51.6 21.5c0-.1.1-.2.1-.3 0-.1.1-.2.1-.3 0-.1.1-.2.1-.3v-1.2c0-.1-.1-.2-.1-.3 0-.1 0-.2-.1-.3 0-.1-.1-.2-.1-.3 0-.1-.1-.2-.1-.3-.1-.1-.1-.2-.2-.2l-.2-.2L34.6.9C33.4-.3 31.5-.3 30.4.8 29.2 2 29.2 3.9 30.3 5l11.5 12H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h39L30.3 34.9c-1.2 1.2-1.1 3.1 0 4.2.6.6 1.3.9 2.1.9s1.6-.3 2.1-.9L51 22.2l.2-.2c.1-.1.1-.2.2-.2.2-.1.2-.2.2-.3z"></path></svg></strong> </button>
+					</div>
+
+						
+    				<p>
+    					Check our <a href="#">Privacy Policy </a> to learn how do we store and use your personal details. You can unsubscribe anytime.
+    				</p>
+					</div>
+
+					</div>
+				</div>
+
+				<div class="container" style="padding-bottom: 80px;">
+					<div class="toTopGrid">
+									<div class="footerInformation">
+										<p class="copyright">
+									© Copyright 2020 - Made For Wandio Development.
+								</p>
+								<p>
+									Company Registration No: 9579364. VAT Registration No: 213515446
+								</p>	
+
+
+								<ul id="menu-footer" class="menu">
+									<li>
+										<a href=#">Sitemap</a>
+									</li>
+								
+									<li>
+										<a href="#">Privacy Policy
+										</a>
+									</li>
+
+									<li id="withoutDot">
+										<a href="#">Cookie Policy
+										</a>
+									</li>
+								</ul>
+									</div>
+								<!--To Top Button goes here-->
+						<div class="toTopBtn">
+							<button id="back-to-top">
+                            Top
+                            <span class="svg-container icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="17.999" viewBox="0 0 12 17.999"><path fill="#7D8BBC" d="M11.707 5.292l-5-5a1.004 1.004 0 0 0-1.415 0l-5 5A.999.999 0 0 0 1 6.999a.997.997 0 0 0 .707-.293L5 3.413v13.586a1 1 0 1 0 2 0V3.413l3.293 3.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414z"></path></svg></span>                        </button>
+						</div>
+					</div>
+						
+					</div>
+			</div>
+		
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
